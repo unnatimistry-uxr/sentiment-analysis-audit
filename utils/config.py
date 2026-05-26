@@ -38,6 +38,8 @@ class ProjectPaths:
     DATA_ANALYSIS_MANUAL_SAMPLE_XLSX = DIR_DATA_ANALYSIS / "manual_reading_sample.xlsx"
     DATA_ANALYSIS_FULL_5STAR_CSV = DIR_DATA_ANALYSIS / "full_categorized_5_star_reviews.csv"
     DATA_ANALYSIS_NEG_MANUAL_SAMPLE_XLSX = DIR_DATA_ANALYSIS / "negative_manual_sample.xlsx"
+    DATA_ANALYSIS_NEG_THEMATIC_XLSX = DIR_DATA_ANALYSIS / "negative_Thematic_Analysis.xlsx"
+    DATA_ANALYSIS_MASS_INFERENCE_CLASSIFIED_XLSX = DIR_DATA_ANALYSIS / "final_mass_inference_classified.xlsx"
     
     # --- REPORT FILES (Sentiment Metrics) ---
     REPORTS_SENTIMENT_SCORES_HTML = DIR_REPORTS_SENTIMENT / "sentiment_score_table.html"
