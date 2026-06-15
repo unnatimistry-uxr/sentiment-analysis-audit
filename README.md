@@ -6,10 +6,11 @@ This project demonstrates a hybrid approach to large-scale qualitative analysis.
 ## The Problem
 Manual thematic coding of 10,000+ reviews is inefficient, yet pure AI sentiment analysis often misses sarcasm, negation (e.g., "not good"), and technical frustration, leading to skewed UX priorities.
 
-## Methodology
+## 🔬 Methodology & Tech Stack
 * **Quantitative:** Sentiment Polarity Modeling using TextBlob (Lexicon-based NLP).
 * **Qualitative Audit:** Statistical validation of AI scores against User Star Ratings to identify "Cognitive Dissonance."
-* **Tech Stack:** Python (Pandas, NLTK, TextBlob), Seaborn for statistical visualization.
+* **Classification Engine:** Zero-shot Natural Language Inference via `facebook/bart-large-mnli`.
+* **Tech Stack:** Python (Pandas, NLTK, TextBlob, Scikit-Learn, Matplotlib, Seaborn, Plotly).
 
 ## Key Technical Achievements
 * **Custom NLP Preprocessing:** Built a regex-based cleaning pipeline to normalize "noisy" mobile review data.
@@ -49,11 +50,6 @@ To maintain enterprise-level reproducibility, the directory namespace is strictl
         ├── 📁 01_positive_analysis/       # Value prop frequency HTML tables
         └── 📁 02_negative_analysis/       # Pareto plots & interactive hierarchical treemaps
  ```       
-## 🔬 Methodology & Tech Stack
-* **Quantitative:** Sentiment Polarity Modeling using TextBlob (Lexicon-based NLP).
-* **Qualitative Audit:** Statistical validation of AI scores against User Star Ratings to identify "Cognitive Dissonance."
-* **Classification Engine:** Zero-shot Natural Language Inference via `facebook/bart-large-mnli`.
-* **Tech Stack:** Python (Pandas, NLTK, TextBlob, Scikit-Learn, Matplotlib, Seaborn, Plotly).
 
 ---
 
